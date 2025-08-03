@@ -7,7 +7,6 @@ Prerequisites
 To run this application, you should have(download):
  + Python 3.x
  + [deploy.prototxt.txt](https://github.com/sr6033/face-detection-with-OpenCV-and-DNN/blob/master/deploy.prototxt.txt)
- + [openface.nn4.small2.v1.t7](https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7)
  + [res10_300x300_ssd_iter_140000.caffemodel](https://github.com/shiyazt/Face-Recognition-using-Opencv-/blob/master/face_detection_model/res10_300x300_ssd_iter_140000.caffemodel)
 
 ------------------------------------------------------------------------------
@@ -46,7 +45,6 @@ Important: Due to file size considerations, the following directories are not in
 "face_detector_model/": This folder contains the pre-trained Caffe models necessary for face detection.
 Download the following two files and place them inside this new folder:
     "deploy.prototxt.txt"
-    "openface.nn4.small2.v1.t7"
     "res10_300x300_ssd_iter_140000.caffemodel"
 (Note: You can find these files online or from a trusted source for face detection models.)
 
